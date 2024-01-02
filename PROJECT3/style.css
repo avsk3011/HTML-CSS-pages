@@ -1,0 +1,58 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(pexels-eberhard-grossgasteiger-1421903.jpg);
+    min-height: 100%;
+}
+.pimg2{
+        background-image: url(pexels-pixabay-355465.jpg);
+        min-height: 600px;
+    }
+.pimg3{
+    background-image: url(image3.jpg);
+        min-height: 400px;
+    }
+
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+background-attachment: fixed;}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    border: 0.5px solid rgb(238, 229, 229);
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: #07f12e;
+    color: #0c0c0c;
+}
+.section-dark{
+    background-color: #282e34;
+    color:#ddd ;
+}
+

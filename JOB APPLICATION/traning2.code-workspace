@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../wamp64/www/traning"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "newcourse"
+	}
+}
