@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Food Menu</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="food-menu">
+  <h2>Food Available in Our Restaurant</h2>
+  <form action="/submit-your-choice" method="post">
+    
+    <div class="food-category">
+      <h3>Appetizers</h3>
+      <div class="food-item"><input type="checkbox" id="springRolls" name="appetizer[]" value="Spring Rolls"><label for="springRolls">Spring Rolls</label></div>
+      <div class="food-item"><input type="checkbox" id="garlicBread" name="appetizer[]" value="Garlic Bread"><label for="garlicBread">Garlic Bread</label></div>
+    </div>
+    
+    <div class="food-category">
+      <h3>Main Course</h3>
+      <div class="food-item"><input type="checkbox" id="pizza" name="mainCourse[]" value="Pizza"><label for="pizza">Pizza</label></div>
+      <div class="food-item"><input type="checkbox" id="pasta" name="mainCourse[]" value="Pasta"><label for="pasta">Pasta</label></div>
+    </div>
+    
+    <div class="food-category">
+      <h3>Desserts</h3>
+      <div class="food-item"><input type="checkbox" id="iceCream" name="dessert[]" value="Ice Cream"><label for="iceCream">Ice Cream</label></div>
+      <div class="food-item"><input type="checkbox" id="cheeseCake" name="dessert[]" value="Cheese Cake"><label for="cheeseCake">Cheese Cake</label></div>
+    </div>
+    
+    <button type="submit" class="submit-btn">Submit Your Choice</button>
+  </form>
+</div>
+
+</body>
+</html>

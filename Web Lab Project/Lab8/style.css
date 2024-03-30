@@ -1,0 +1,39 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  .food-menu {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  .food-category {
+    margin-bottom: 20px;
+  }
+
+  .food-item {
+    margin: 10px 0;
+  }
+
+  label {
+    margin-left: 5px;
+  }
+
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .submit-btn:hover {
+    background-color: #45a049;
+  }

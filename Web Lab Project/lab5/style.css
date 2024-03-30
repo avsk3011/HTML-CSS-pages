@@ -1,0 +1,24 @@
+  /* Style for the parent div */
+  .parent {
+    display: flex; /* Use Flexbox */
+    justify-content: space-around; /* Equal spacing around items */
+    padding: 20px; /* Padding around the parent div */
+    background-color: #EEE4B1; /* Light grey background */
+  }
+  
+  /* Style for the child divs */
+  .child {
+    flex: 1; /* Each child takes equal width */
+    margin: 10px; /* Margin between child divs */
+    padding: 20px; /* Padding inside child divs */
+    background-color: white; /* White background for contrast */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    text-align: center; /* Center-align the text */
+  }
+
+  /* Style for the anchor tags */
+  .child a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark grey color for text */
+    font-weight: bold; /* Make link text bold */
+  }

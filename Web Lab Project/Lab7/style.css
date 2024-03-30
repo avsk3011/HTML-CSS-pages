@@ -1,0 +1,27 @@
+
+  /* Style for the container */
+  .container {
+    width: 80%; /* Width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    border: 2px solid #333; /* Border around the container */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f0f0f0; /* Background color */
+  }
+  
+  /* Style for city details */
+  .city {
+    margin-bottom: 20px; /* Margin between city details */
+  }
+  
+  /* Style for city name */
+  .city h2 {
+    margin-bottom: 5px; /* Margin below city name */
+    color: #333; /* Color of city name */
+  }
+  
+  /* Style for city description */
+  .city p {
+    margin-top: 0; /* Remove top margin */
+    color: #666; /* Color of city description */
+  }

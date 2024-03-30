@@ -1,0 +1,14 @@
+
+  /* Set the background color of the entire page */
+  body {
+    background-color: #4485be; /* Light blue background */
+    font-family: Arial, sans-serif; /* Set the font for the entire page */
+  }
+
+  /* Style for paragraphs */
+  p {
+    color: #333; /* Dark gray font color */
+    font-size: 16px; /* Set the font size */
+    line-height: 1.6; /* Spacing between lines */
+    margin: 20px; /* Margin around paragraphs */
+  }
