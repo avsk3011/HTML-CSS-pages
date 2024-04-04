@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+    
+    
+}
+.nav{
+   
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    align-items: center;
+    margin: 0.9px;
+    padding: 10px;  
+    background-color: #c3f0f0; 
+ 
+}
+
+a{
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.cartinbtn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+
+}
+
+
+
+
+
+.bigbar{
+    background-color: #c3f0f0; 
+    padding: 20px;
+
+   
+
+   
+
+}
+.navbar{
+background-color: white;
+height: 35px;
+text-align: left;
+display: flex;
+align-items: center;
+border-bottom: 1px solid rgb(182, 182, 182);
+
+
+}
+
+.p_text{
+    background-color: white;
+    margin: 0;
+    margin-left: 20px;
+
+}
+/* shop section   */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #c3f0f0;
+    transition: transform 0.2s,
+}
+.box{
+    /* border: 2px solid black; */
+    height: 380px;
+    width: 23%;
+    background-color:white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border: 1px solid rgb(223, 218, 218);
+
+}
+h2{
+    color: rgb(19, 117, 117);
+}
+.price{
+    font-weight: bold;
+    color: rgb(6, 77, 77);
+
+}
+.category{
+    font-weight: bold;
+    color: chocolate;
+}
+.box:hover{
+
+    transform: scale(1.03);
+}
+.box-img{
+    height: 200px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.btn-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    padding-bottom: 10px ;
+
+}
+.add-btn{
+    background-color:rgb(55, 212, 160);
+    padding: 5px;
+    border: 0.5px solid rgb(129, 150, 143);
+    border-radius: 3px;
+    color: white;
+
+
+}
+
+
+
+.bye-btn{
+    background-color: chocolate;
+    padding: 5px;
+    border: 0.5px solid rgb(145, 114, 30);
+    border-radius: 3px;
+    color: white;
+
+ 
+}
+
+
+
+
+
+
+
+/* footer */
+footer{
+padding-top: 5px;
+}
+.foot-panel1{
+    background-color: rgb(3, 17, 3);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
